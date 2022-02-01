@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/EnterMobileFragment">
+
+    <fragment
+        android:id="@+id/EnterMobileFragment"
+        android:name="com.jettysoft.payq.ui.onboarding.signup.EnterMobileFragment"
+        android:label="@string/title_activity_verify_mobile_no_fragment"
+        tools:layout="@layout/enter_mobile_fragment">
+
+        <action
+            android:id="@+id/action_EnterMobileFragment_to_VerifyMobileNoFragment"
+            app:destination="@id/VerifyMobileNoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VerifyMobileNoFragment"
+        android:name="com.jettysoft.payq.ui.onboarding.signup.VerifyMobileNoFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/verify_mobile_no_fragment">
+
+        <action
+            android:id="@+id/action_VerifyMobileNoFragment_to_EnterEmailFragment"
+            app:destination="@id/EnterEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EnterEmailFragment"
+        android:name="com.jettysoft.payq.ui.onboarding.signup.EnterEmailFragment"
+        tools:layout="@layout/enter_email_fragment">
+
+    <action
+        android:id="@+id/action_EnterEmailFragment_to_VerifyEmailFragment"
+        app:destination="@id/VerifyEmailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VerifyEmailFragment"
+        android:name="com.jettysoft.payq.ui.onboarding.signup.VerifyEmailFragment"
+        tools:layout="@layout/verify_email_fragment">
+
+
+    </fragment>
+
+</navigation>
