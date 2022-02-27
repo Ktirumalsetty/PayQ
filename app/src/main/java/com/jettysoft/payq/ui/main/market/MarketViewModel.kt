@@ -1,4 +1,4 @@
-package com.jettysoft.payq.ui.main.ui.dashboard
+package com.jettysoft.payq.ui.main.market
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

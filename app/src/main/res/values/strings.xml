@@ -24,4 +24,27 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="your_available_balence">Your available balence</string>
+    <string name="transactions">transactions</string>
+    <string name="add">Add</string>
+    <string name="send">Send</string>
+    <string name="refund">Refund</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="title_markets">Markets</string>
+    <string name="title_winners">Winners</string>
+    <string name="title_profile">Profile</string>
+    <string name="see_all"><![CDATA[See all >]]></string>
+    <string name="users">USERS</string>
+    <string name="rank">RANK</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="all_rewards">All rewards</string>
+    <string name="my_transactions">My Transactions</string>
+    <string name="my_transactions_sub_text">Payments history</string>
+    <string name="my_refunds">My Refunds</string>
+    <string name="my_refunds_sub_text">Refund history</string>
+    <string name="notifications">Notifications</string>
+    <string name="fingerprint_lock">Fingerprint Lock</string>
+    <string name="fingerprint_lock_sub_text">When enabled, you\'ll need to use fingerprint to open app</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="tap_and_pay"><![CDATA[Tap & Pay]]></string>
 </resources>

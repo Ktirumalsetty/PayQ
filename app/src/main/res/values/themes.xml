@@ -20,12 +20,25 @@
         <item name="android:windowBackground">@null</item>
     </style>
 
+    <style name="AppTheme.ActionBar.Transparent" parent="Theme.PayQ">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+
     <style name="ThemeOverlay.PayQ.FullscreenContainer" parent="">
         <item name="fullscreenBackgroundColor">@color/primary</item>
         <item name="fullscreenTextColor">@color/primary_variant</item>
-    </style>
+    </style>[
 
     <style name="Theme.PayQ.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="android:homeAsUpIndicator">@drawable/ic_baseline_arrow_back_24</item>-->
+
+    </style>
+    <style name="Theme.PayQ.NoActionBar.TrasnparentToolBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

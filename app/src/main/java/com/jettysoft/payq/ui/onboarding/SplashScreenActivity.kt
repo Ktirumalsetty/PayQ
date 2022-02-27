@@ -14,6 +14,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import com.jettysoft.payq.R
 import com.jettysoft.payq.databinding.ActivitySplashScreenBinding
+import com.jettysoft.payq.ui.main.MainActivity
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -52,7 +53,7 @@ class SplashScreenActivity : AppCompatActivity() {
     }
 
     private fun openNextScreen() {
-        startActivity(Intent(this,IntroActivity::class.java))
+        startActivity(Intent(this,MainActivity::class.java))
     }
 
     companion object {

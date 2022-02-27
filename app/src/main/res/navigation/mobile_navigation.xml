@@ -7,19 +7,24 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.jettysoft.payq.ui.main.ui.home.HomeFragment"
+        android:name="com.jettysoft.payq.ui.main.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.jettysoft.payq.ui.main.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_markets"
+        android:name="com.jettysoft.payq.ui.main.market.MarketFragment"
+        android:label="@string/title_markets"
+        tools:layout="@layout/fragment_market" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.jettysoft.payq.ui.main.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_winners"
+        android:name="com.jettysoft.payq.ui.main.winners.WinnersFragment"
+        android:label="@string/title_winners"
+        tools:layout="@layout/fragment_winners" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.jettysoft.payq.ui.main.profile.ProfileFragment"
+        android:label="@string/title_winners"
+        tools:layout="@layout/fragment_winners" />
 </navigation>

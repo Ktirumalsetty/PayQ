@@ -15,4 +15,15 @@
     <color name="light_blue_A400">#FF00B0FF</color>
     <color name="black_overlay">#66000000</color>
     <color name="otp_bg">#F0F0F0</color>
+
+    <color name="light_yellow">#FFF9D9</color>
+    <color name="font_color">#353C40</color>
+    <color name="secondary">#C1FC33</color>
+    <color name="secondary_variant">#0E9754</color>
+    <color name="dark_grey">#828282</color>
+    <color name="list_divider_color">#F0F0F0</color>
+    <color name="green">#36D070</color>
+    <color name="red">#FF384A</color>
+
+
 </resources>

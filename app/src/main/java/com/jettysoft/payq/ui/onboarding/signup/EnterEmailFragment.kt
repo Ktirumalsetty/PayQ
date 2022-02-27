@@ -30,7 +30,7 @@ class EnterEmailFragment : BaseFragment<EnterEmailFragmentBinding>() {
     }
 
     private fun navigateVerifyEmail() {
-        findNavController().navigate(R.id.action_VerifyMobileNoFragment_to_EnterEmailFragment)
+        findNavController().navigate(R.id.action_EnterEmailFragment_to_VerifyEmailFragment)
     }
 
 
