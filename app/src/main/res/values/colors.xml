@@ -16,6 +16,7 @@
     <color name="black_overlay">#66000000</color>
     <color name="otp_bg">#F0F0F0</color>
 
+    <color name="light_grey">#F0F0F0</color>
     <color name="light_yellow">#FFF9D9</color>
     <color name="font_color">#353C40</color>
     <color name="secondary">#C1FC33</color>

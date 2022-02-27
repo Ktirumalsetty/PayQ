@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_wire_less_payments.xml"
+    app:startDestination="@id/wirelessPaymentFragment">
+
+    <fragment
+        android:id="@+id/wirelessPaymentFragment"
+        android:name="com.jettysoft.payq.ui.main.tapandpay.WirelessPaymentFragment"
+        android:label="Wireless Payment"
+        tools:layout="@layout/wireless_payment_fragment" >
+        <action
+            android:id="@+id/action_wirelessPaymentFragment_to_tapAndPayFragment"
+            app:destination="@id/tapAndPayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tapAndPayFragment"
+        android:name="com.jettysoft.payq.ui.main.tapandpay.TapAndPayFragment"
+        android:label="Tap And Pay"
+        tools:layout="@layout/tap_and_pay_fragment" />
+</navigation>

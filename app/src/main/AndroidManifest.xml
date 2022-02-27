@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PayQ">
         <activity
+            android:name=".ui.main.tapandpay.WirelessPaymentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_wireless_payment"
+            android:theme="@style/Theme.PayQ.NoActionBar" />
+        <activity
             android:name=".ui.main.MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main" />

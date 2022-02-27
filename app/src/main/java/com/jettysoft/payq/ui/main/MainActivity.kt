@@ -3,6 +3,7 @@ package com.jettysoft.payq.ui.main
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -11,6 +12,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.jettysoft.payq.R
 import com.jettysoft.payq.databinding.ActivityMainBinding
+import com.jettysoft.payq.ui.main.tapandpay.WirelessPaymentActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,6 +37,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_home, R.id.navigation_markets, R.id.navigation_winners,R.id.navigation_profile
             )
         )
+        binding.included.fab.setOnClickListener(View.OnClickListener {
+            startActivity(WirelessPaymentActivity.getInstance(this))
+        })
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

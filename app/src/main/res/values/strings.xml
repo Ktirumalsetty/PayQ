@@ -47,4 +47,8 @@
     <string name="fingerprint_lock_sub_text">When enabled, you\'ll need to use fingerprint to open app</string>
     <string name="sign_out">Sign Out</string>
     <string name="tap_and_pay"><![CDATA[Tap & Pay]]></string>
+    <string name="requested_amount">Requested Amount</string>
+    <string name="debit_from">Debit From</string>
+    <string name="wire_less_payment_desc"><![CDATA[Open PayQ app & bring your phone near NFC tag, it will detect and payment done automatically]]></string>
+    <string name="title_activity_wireless_payment">WirelessPaymentActivity</string>
 </resources>

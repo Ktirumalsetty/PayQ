@@ -4,16 +4,19 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.PorterDuff
 import android.os.Bundle
+import android.view.LayoutInflater
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import com.google.android.material.snackbar.Snackbar
 import com.jettysoft.payq.R
 import com.jettysoft.payq.databinding.ActivityLoginBinding
 import com.jettysoft.payq.ui.common.base.BaseActivity
 
-class LoginActivity : BaseActivity() {
+class LoginActivity : BaseActivity<ActivityLoginBinding>() {
+
+    override fun inflateBinding(layoutInflater: LayoutInflater): ActivityLoginBinding {
+        return ActivityLoginBinding.inflate(layoutInflater)
+    }
 
     companion object{
         const val TAG="LoginActivity"
@@ -21,12 +24,10 @@ class LoginActivity : BaseActivity() {
     }
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityLoginBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 //        supportActionBar?.setDisplayShowHomeEnabled(true)
@@ -52,4 +53,6 @@ class LoginActivity : BaseActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
+
 }
