@@ -156,4 +156,12 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="ToolBarText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item></style>
+
+
 </resources>
