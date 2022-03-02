@@ -51,4 +51,13 @@
     <string name="debit_from">Debit From</string>
     <string name="wire_less_payment_desc"><![CDATA[Open PayQ app & bring your phone near NFC tag, it will detect and payment done automatically]]></string>
     <string name="title_activity_wireless_payment">WirelessPaymentActivity</string>
+    <string name="bill_payment_successful">Bill Payment Successful</string>
+    <string name="transaction_id">Transaction Id</string>
+    <string name="bill_paid_to">Bill Paid To</string>
+    <string name="debited_from">Debited from</string>
+    <string name="download_receipt">Download receipt</string>
+    <string name="share_receipt">Share receipt</string>
+    <string name="request_for_refund">Request for refund</string>
+    <string name="contact_payq_support">Contact PayQ Support</string>
+    <string name="done">Done</string>
 </resources>
