@@ -340,7 +340,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnPay"
+            android:id="@+id/btnDone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:insetTop="0dp"
