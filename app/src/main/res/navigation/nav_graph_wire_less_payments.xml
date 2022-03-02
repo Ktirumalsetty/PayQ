@@ -9,7 +9,7 @@
         android:id="@+id/wirelessPaymentFragment"
         android:name="com.jettysoft.payq.ui.main.tapandpay.WirelessPaymentFragment"
         android:label="Wireless Payment"
-        tools:layout="@layout/wireless_payment_fragment" >
+        tools:layout="@layout/wireless_payment_fragment">
         <action
             android:id="@+id/action_wirelessPaymentFragment_to_tapAndPayFragment"
             app:destination="@id/tapAndPayFragment" />
@@ -19,5 +19,14 @@
         android:id="@+id/tapAndPayFragment"
         android:name="com.jettysoft.payq.ui.main.tapandpay.TapAndPayFragment"
         android:label="Tap And Pay"
-        tools:layout="@layout/tap_and_pay_fragment" />
+        tools:layout="@layout/tap_and_pay_fragment">
+        <action
+            android:id="@+id/action_tapAndPayFragment_to_billPaymentSuccessFragment"
+            app:destination="@id/billPaymentSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/billPaymentSuccessFragment"
+        android:name="com.jettysoft.payq.ui.main.tapandpay.BillPaymentSuccessFragment"
+        android:label=""
+        tools:layout="@layout/bill_payment_success_fragment" />
 </navigation>
