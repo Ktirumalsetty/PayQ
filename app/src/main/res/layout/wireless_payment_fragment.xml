@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:gravity="center"
-        android:text="NFC Wifi enabled payments \n using PayQ App"
+        android:text="@string/nfc_enabled_payments_using_payq"
         android:textColor="@color/primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
